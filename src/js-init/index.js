@@ -21,3 +21,16 @@
         })
 
 
+        const menuButton = document.getElementById('menuButton');
+const dropdownMenu = document.getElementById('dropdownMenu');
+
+menuButton.addEventListener('click', () => {
+    const isMenuOpen = dropdownMenu.style.display === 'block';
+    dropdownMenu.style.display = isMenuOpen ? 'none' : 'block';
+});
+
+
+function toggleMenu() {
+  const menu = document.querySelector('.marking');
+  menu.classList.toggle('show');
+}

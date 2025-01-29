@@ -14,3 +14,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
   setInterval(restartAnimation, 4000); 
 });
+

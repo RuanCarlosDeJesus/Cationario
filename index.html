@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/css-init/index.css">
     <link rel="stylesheet" href="/src/css-init/reset.css"> 
     <link rel="stylesheet" href="/src/css-init/animation-glitch.css">
+    <link rel="stylesheet" href="/src/css-init/init-responsive.css">
 
     <!-- AOS Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -19,22 +20,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     <title>CationArio</title>
 </head>
 <body>
-    <header class="head" > 
-        <nav class="nav-bar"> 
+    <header class="head">
+        <nav class="nav-bar">
             <a href="index.html">
                 <img src="/src/img/miaum.jpg" alt="Logo da Empresa" class="img-cat logo">
             </a>
+    
+            <!-- Ícone de três pontinhos (agora com três divs para as linhas) -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+    
             <div class="marking">
                 <a href="#aprendizado" class="marker" data-aos="fade-right">Aprendizado</a>
                 <a href="#sobre-nos" class="marker" data-aos="fade-right">Sobre nós</a>
                 <a href="#beneficios" class="marker" data-aos="fade-right">Benefícios</a>
                 <a href="#faq" class="marker" data-aos="fade-right">FAQ</a>
+    
+                <!-- Botão de login dentro do menu de 3 pontinhos -->
+                <a href="/src-login/login.html" class="marker login" data-aos="fade-left">Login</a>
             </div>
-            <a href="/src-login/login.html" class="marker login" data-aos="fade-left">Login</a>
         </nav>
     </header>
 
@@ -62,8 +74,7 @@
                 <div class="hero-paw" data-aos="fade-up">
                     <p data-aos="zoom-out-left"  class=""> 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eius eligendi ipsam? Eligendi, molestias earum voluptatum, architecto fugiat nobis quas molestiae, inventore enim pariatur dignissimos aspernatur cum vero ducimus soluta!
-                        Quaerat delectus exercitationem cumque, nobis fugit omnis tempora nostrum molestias aperiam esse, beatae eum aspernatur. Libero, nesciunt fuga magnam impedit illum excepturi earum, modi odio tenetur, nihil optio culpa vero?
-                        Consectetur cum unde quos dolor laborum reprehenderit eos! Et officia non commodi aut repellat blanditiis repellendus dolor, earum aliquam fuga recusandae consequatur laudantium expedita debitis dicta corporis, sed vitae itaque.
+                       
                         
 
                     </p>
@@ -75,7 +86,7 @@
 
         <div class="divider"></div>
     </main>
-    data-aos="fade-up"
+   
     <section class="more-info"  data-aos="fade-up">
         <h2 id="aprendizado"  data-aos="fade-up">Do básico ao avançado, O Cationário é para todos os níveis de estudantes!</h2>
         <div class="card-info"  data-aos="fade-up">
@@ -145,6 +156,10 @@
         // AOS Initialization
         AOS.init( );
         
+
+      
+    
+
     </script>
     <script src="/./src/js-init/index.js"></script>
     <script src="./src/js-init/glitch.js"></script>
