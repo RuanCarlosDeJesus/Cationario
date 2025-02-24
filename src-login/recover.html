@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recover Account</title>
+
+    <link rel="stylesheet" href="./css-login/recover.css">
+</head>
+<body>
+    <div class="recover-container" id="recover">
+        <label for="email" class="gmail"> Digite seu Email:
+        </label>
+        <input type="email" class="email">
+       <button class="submit" > Enviar</button>
+
+
+    </div>
+
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    
+    <script>
+        const recover = document.getElementById("#recover");
+        const email = document.querySelector(".email")
+        const submit = document.querySelector(".submit")
+    submit.addEventListener('click',() => {
+        if(!email.value || !email.value.includes('@')){
+            alert("Digite um email válido!");
+        }else {
+            
+            alert("Link de recuperação enviado para o email cadastrado!");
+           
+        }
+       
+    })
+    </script>
+  
+</body>
+</html>
