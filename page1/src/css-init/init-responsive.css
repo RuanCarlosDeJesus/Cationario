@@ -1,7 +1,7 @@
 
 
 
-@media screen and (min-width: 380px) and (max-width: 480px) {
+@media screen and (max-width <380px) {
     body {
         margin: 0;
         padding: 0;
@@ -15,7 +15,9 @@
         flex-direction: column;
         align-items: center;
     }
-
+      .glitch-text {
+        font-size: 30px;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -56,31 +58,6 @@
     }
  
    
-
-
-    .card {
-        background: linear-gradient(#e9e9cb, #F5F5DC);
-        color: #333;
-        padding: 20px;
-        width: 100%;
-        height: 500px;
-        min-height: 21em; 
-     
-       
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        border-radius: 15px;
-        transition: 0.2s ease-in-out;
-        justify-content: space-between;
-        border: 2px solid #693f00;
-        font-size: 30px;
-        box-sizing: border-box;
-    }
-
-
-
     
 }
 
@@ -99,7 +76,9 @@
         width: 100%;
         height: 100%;
     }
-   
+   .glitch-text{
+    font-size: 20px;
+   }
 
     .menu-icon {
         display: flex;
