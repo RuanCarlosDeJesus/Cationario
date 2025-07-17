@@ -1,0 +1,10 @@
+[
+  {
+    "id": "pt_geral",
+    "materia": "Português",
+    "nivel": "geral",
+    "arquivo": "pt.json",
+    "quantidade": 10,
+    "ultimaAtualizacao": "14-07-2025"
+  }
+]
