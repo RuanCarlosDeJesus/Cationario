@@ -91,6 +91,7 @@ export function Portugues() {
               {respostasSelecionadas[q.id] && (
                 <p className="text-sm text-gray-400 mt-2">💡 {q.explicacao}</p>
               )}
+            
             </div>
           ))}
         </div>

@@ -38,6 +38,21 @@ export function Home() {
 
   return (
     <div className="w-full min-h-screen flex justify-center items-center bg-[#0d0d0d] text-white relative">
+       <header className="max-w-5xl w-full p-3 rounded mt-8 flex gap-4 fixed justify-around top-0 items-center font-bold font-Helvetica uppercase bg-gradient-to-br from-[#000] via-[#111] to-[#111] shadow-2xl border border-neutral-800"> 
+          {/* Botão de logout */}
+
+          <Link to="#" className=" hover:text-red-400 text-xl transition-all duration-300 "> Perfil <i className="bi bi-person"></i></Link>
+          <Link to="#" className=" hover:text-red-400 text-xl transition-all duration-300 "> Histórico de Provas <i className="bi bi-person"></i></Link>
+       
+        <button
+          onClick={() => auth.signOut()}
+          className="  text-white hover:text-red-400 text-3xl transition-all duration-300 cursor-pointer"
+          title="Sair"
+        >
+          <i className="bi bi-box-arrow-right"></i>
+        </button>  </header>
+   
+
       <div className="max-w-7xl w-full px-8 py-10 rounded-3xl mt-8 flex flex-col items-center bg-gradient-to-br from-[#000] via-[#111] to-[#111] shadow-2xl border border-neutral-800">
         <h1 className="text-4xl font-extrabold tracking-wide mb-10">
           Bem-vindo, {userName}!
@@ -115,14 +130,7 @@ export function Home() {
           </div>
         </div>
 
-        {/* Botão de logout */}
-        <button
-          onClick={() => auth.signOut()}
-          className="absolute top-6 right-6 text-white hover:text-red-400 text-3xl transition-all duration-300"
-          title="Sair"
-        >
-          <i className="bi bi-box-arrow-right"></i>
-        </button>
+      
       </div>
 
       {/* Caixa de explicação flutuante */}

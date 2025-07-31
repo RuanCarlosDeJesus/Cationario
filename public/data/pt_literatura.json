@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "categoria": "literatura",
+    "enunciado": "O que caracteriza a poesia simbolista?",
+    "alternativas": {
+      "a": "Linguagem clara e objetiva",
+      "b": "Uso de símbolos e subjetividade",
+      "c": "Crítica social direta",
+      "d": "Ritmo e métrica rígidos",
+      "e": "Temas científicos"
+    },
+    "correta": "b",
+    "explicacao": "O simbolismo usa símbolos e linguagem subjetiva.",
+    "link": "https://www.todamateria.com.br/simbolismo/"
+  },
+  {
+    "id": 2,
+    "categoria": "literatura",
+    "enunciado": "Qual é a principal característica do Realismo?",
+    "alternativas": {
+      "a": "Valorização do fantástico",
+      "b": "Idealização do amor",
+      "c": "Representação fiel da realidade",
+      "d": "Uso de metáforas religiosas",
+      "e": "Ênfase na natureza"
+    },
+    "correta": "c",
+    "explicacao": "O Realismo busca representar a realidade de forma objetiva.",
+    "link": "https://www.todamateria.com.br/realismo-no-brasil/"
+  },
+  {
+    "id": 3,
+    "categoria": "literatura",
+    "enunciado": "Machado de Assis é associado a qual movimento literário?",
+    "alternativas": {
+      "a": "Romantismo",
+      "b": "Barroco",
+      "c": "Realismo",
+      "d": "Modernismo",
+      "e": "Naturalismo"
+    },
+    "correta": "c",
+    "explicacao": "Machado de Assis é o maior nome do Realismo brasileiro.",
+    "link": "https://www.todamateria.com.br/machado-de-assis/"
+  },
+  {
+    "id": 4,
+    "categoria": "literatura",
+    "enunciado": "O que foi a Semana de Arte Moderna de 1922?",
+    "alternativas": {
+      "a": "Evento político",
+      "b": "Congresso acadêmico",
+      "c": "Festival de música clássica",
+      "d": "Marco inicial do Modernismo no Brasil",
+      "e": "Mostra de artesanato"
+    },
+    "correta": "d",
+    "explicacao": "A Semana de 22 marcou o início do Modernismo no Brasil.",
+    "link": "https://www.todamateria.com.br/semana-de-arte-moderna/"
+  },
+  {
+    "id": 5,
+    "categoria": "literatura",
+    "enunciado": "Qual das obras abaixo é de autoria de Clarice Lispector?",
+    "alternativas": {
+      "a": "Dom Casmurro",
+      "b": "A Hora da Estrela",
+      "c": "Memórias Póstumas de Brás Cubas",
+      "d": "Iracema",
+      "e": "Macunaíma"
+    },
+    "correta": "b",
+    "explicacao": "A obra 'A Hora da Estrela' é de Clarice Lispector.",
+    "link": "https://www.todamateria.com.br/clarice-lispector/"
+  },
+  {
+    "id": 6,
+    "categoria": "literatura",
+    "enunciado": "Qual característica define o Barroco?",
+    "alternativas": {
+      "a": "Simplicidade linguística",
+      "b": "Racionalismo extremo",
+      "c": "Dualismo entre corpo e alma",
+      "d": "Rejeição à religião",
+      "e": "Romantização do amor"
+    },
+    "correta": "c",
+    "explicacao": "O Barroco é marcado pela oposição entre matéria e espírito.",
+    "link": "https://www.todamateria.com.br/barroco-no-brasil/"
+  },
+  {
+    "id": 7,
+    "categoria": "literatura",
+    "enunciado": "Quem foi Mário de Andrade?",
+    "alternativas": {
+      "a": "Poeta parnasiano",
+      "b": "Autor barroco",
+      "c": "Figura central do Modernismo",
+      "d": "Escritor romântico",
+      "e": "Simbolista francês"
+    },
+    "correta": "c",
+    "explicacao": "Mário de Andrade foi um dos principais modernistas do Brasil.",
+    "link": "https://www.todamateria.com.br/mario-de-andrade/"
+  },
+  {
+    "id": 8,
+    "categoria": "literatura",
+    "enunciado": "O que caracteriza o movimento romântico?",
+    "alternativas": {
+      "a": "Objetividade e crítica social",
+      "b": "Exaltação dos sentimentos e do nacionalismo",
+      "c": "Rejeição à arte",
+      "d": "Uso de termos científicos",
+      "e": "Técnica de fluxos de consciência"
+    },
+    "correta": "b",
+    "explicacao": "O Romantismo valoriza o eu, os sentimentos e o amor idealizado.",
+    "link": "https://www.todamateria.com.br/romantismo/"
+  },
+  {
+    "id": 9,
+    "categoria": "literatura",
+    "enunciado": "Qual autor escreveu 'Macunaíma'?",
+    "alternativas": {
+      "a": "Carlos Drummond de Andrade",
+      "b": "Graciliano Ramos",
+      "c": "Mário de Andrade",
+      "d": "Manuel Bandeira",
+      "e": "Lima Barreto"
+    },
+    "correta": "c",
+    "explicacao": "Mário de Andrade escreveu 'Macunaíma', herói sem nenhum caráter.",
+    "link": "https://www.todamateria.com.br/macunaima/"
+  },
+  {
+    "id": 10,
+    "categoria": "literatura",
+    "enunciado": "O Naturalismo se caracteriza por:",
+    "alternativas": {
+      "a": "Idealização do herói",
+      "b": "Subjetividade",
+      "c": "Análise científica do comportamento humano",
+      "d": "Fuga da realidade",
+      "e": "Exaltação do amor"
+    },
+    "correta": "c",
+    "explicacao": "O Naturalismo foca no determinismo social e biológico.",
+    "link": "https://www.todamateria.com.br/naturalismo/"
+  }
+]

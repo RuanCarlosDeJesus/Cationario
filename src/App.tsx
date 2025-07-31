@@ -7,7 +7,7 @@ import { Perfil } from './perf/index';
 import { Portugues } from  "./home/material/português";
 import { Gramatica } from  "./home/material/português/gramatica";
 import { Literatura } from  "./home/material/português/literatura";
-
+import {Result} from "./home/material/conclusao"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +37,10 @@ const router = createBrowserRouter([
     path: "/portugues_literatura",  // Parâmetro de rota categoria
     element: <Literatura />,
   },
+  {
+  path: "/result",
+  element: <Result />,
+},
   {
     path: "/perfil",
     element: (
