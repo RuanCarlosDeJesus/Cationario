@@ -1,5 +1,5 @@
 import { useState } from "react";
-import  Cat from"../../public/Cat.png"
+
 import Catt from"../../public/Cat2.jpg";
 import { useNavigate, Link } from "react-router-dom";
 import { auth , provider, signInWithPopup } from '../services/firebaseConnections';
