@@ -15,11 +15,7 @@ const [loading, setLoading] = useState<boolean>(false);
   function handleLogin(e: React.FormEvent) {
     e.preventDefault();
  setLoading(true);
-    if (email === "" || senha === "") {
-      alert("Preencha todos os campos!");
-      return;
-   
-    }
+    
 
 
     signInWithEmailAndPassword(auth, email, senha)
