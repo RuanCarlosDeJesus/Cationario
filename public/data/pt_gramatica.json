@@ -1,302 +1,452 @@
-[
-  {
-    "id": 1,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a alternativa em que o emprego do porquê está correto:",
-    "alternativas": {
-      "a": "Não entendi o porquê de sua ausência.",
-      "b": "Por que você não veio ontem?",
-      "c": "Ele não explicou o porque do atraso.",
-      "d": "Gostaria de saber porquê você agiu assim.",
-      "e": "Porquê você não me ligou?"
+{
+  "questoes": [
+    {
+      "id": 1,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Assinale a alternativa em que o emprego do porquê está correto:",
+      "alternativas": {
+        "a": "Não entendi o porquê de sua ausência.",
+        "b": "Por que você não veio ontem?",
+        "c": "Ele não explicou o porque do atraso.",
+        "d": "Gostaria de saber porquê você agiu assim.",
+        "e": "Porquê você não me ligou?"
+      },
+      "correta": "a",
+      "explicacao": "Em 'o porquê' (substantivo), o uso está correto com artigo 'o'.",
+      "link": "https://www.todamateria.com.br/por-que-por-que-porque-porquê/"
     },
-    "correta": "a",
-    "explicacao": "Em 'o porquê' (substantivo), o uso está correto com artigo 'o'.",
-    "link": "https://www.todamateria.com.br/por-que-por-que-porque-porquê/"
-  },
-  {
-    "id": 2,
-    "categoria": "gramatica",
-    "enunciado": "Em qual alternativa o uso do acento está incorreto?",
-    "alternativas": {
-      "a": "Pára o carro ali.",
-      "b": "Ele gosta de pára-quedas.",
-      "c": "Ela não sabia o porquê.",
-      "d": "Ele é um ótimo médico.",
-      "e": "O avião decolou."
+    {
+      "id": 2,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Escolha a frase com concordância verbal correta:",
+      "alternativas": {
+        "a": "Os meninos corre todos os dias.",
+        "b": "As meninas canta muito bem.",
+        "c": "O gato dorme na cama.",
+        "d": "As árvores cresce rápido.",
+        "e": "Os livros está na mesa."
+      },
+      "correta": "c",
+      "explicacao": "A concordância verbal exige que o verbo concorde em número e pessoa com o sujeito. 'O gato dorme' está correto.",
+      "link": "https://www.todamateria.com.br/concordancia-verbal/"
     },
-    "correta": "a",
-    "explicacao": "Com o acordo ortográfico, o verbo parar perdeu o acento (não se escreve mais 'pára').",
-    "link": "https://www.todamateria.com.br/acordo-ortografico/"
-  },
-  {
-    "id": 3,
-    "categoria": "gramatica",
-    "enunciado": "Qual a função da palavra 'que' na frase: 'O livro que você me deu é ótimo'?",
-    "alternativas": {
-      "a": "Pronome interrogativo",
-      "b": "Pronome relativo",
-      "c": "Conjunção subordinativa",
-      "d": "Advérbio",
-      "e": "Substantivo"
+    {
+      "id": 3,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Qual é a forma correta do pronome oblíquo átono?",
+      "alternativas": {
+        "a": "Eu te vi ontem.",
+        "b": "Eu me viu ontem.",
+        "c": "Eu o vi ontem.",
+        "d": "Eu nos viu ontem.",
+        "e": "Eu lhe viu ontem."
+      },
+      "correta": "a",
+      "explicacao": "O pronome 'te' é o oblíquo átono correto para a segunda pessoa do singular.",
+      "link": "https://www.todamateria.com.br/pronomes-oblíquos/"
     },
-    "correta": "b",
-    "explicacao": "'Que' é pronome relativo que retoma 'livro'.",
-    "link": "https://www.todamateria.com.br/pronome-relativo/"
-  },
-  {
-    "id": 4,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a frase com uso correto do verbo no pretérito perfeito:",
-    "alternativas": {
-      "a": "Eu tinha estudado para a prova.",
-      "b": "Eu estudava todos os dias.",
-      "c": "Eu estudei ontem à noite.",
-      "d": "Eu estudarei amanhã.",
-      "e": "Eu estudo agora."
+    {
+      "id": 4,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Assinale a frase com crase correta:",
+      "alternativas": {
+        "a": "Vou à praia amanhã.",
+        "b": "Ela foi a escola ontem.",
+        "c": "Cheguei à casa às 10h.",
+        "d": "Ele foi à mercado hoje.",
+        "e": "À noite, saí para caminhar."
+      },
+      "correta": "a",
+      "explicacao": "A crase ocorre na junção de 'a' (preposição) e 'a' (artigo), como em 'à praia'.",
+      "link": "https://www.todamateria.com.br/crase/"
     },
-    "correta": "c",
-    "explicacao": "Pretérito perfeito indica ação concluída no passado.",
-    "link": "https://www.todamateria.com.br/tempos-verbais/"
-  },
-  {
-    "id": 5,
-    "categoria": "gramatica",
-    "enunciado": "Em qual alternativa a vírgula está empregada corretamente?",
-    "alternativas": {
-      "a": "Ela, que é médica gosta de viajar.",
-      "b": "Fui ao mercado, e comprei frutas.",
-      "c": "O filme que assistimos ontem, foi emocionante.",
-      "d": "João, meu amigo chegou cedo.",
-      "e": "Eles, apesar do cansaço, continuaram."
+    {
+      "id": 5,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Qual é o plural correto da palavra 'lápis'?",
+      "alternativas": {
+        "a": "lápis",
+        "b": "lápises",
+        "c": "lápisões",
+        "d": "lápides",
+        "e": "lápios"
+      },
+      "correta": "a",
+      "explicacao": "'Lápis' é uma palavra invariável no plural.",
+      "link": "https://www.todamateria.com.br/plural-das-palavras/"
     },
-    "correta": "e",
-    "explicacao": "Vírgula após expressões explicativas ou concessivas como 'apesar do cansaço'.",
-    "link": "https://www.todamateria.com.br/uso-da-virgula/"
-  },
-  {
-    "id": 6,
-    "categoria": "gramatica",
-    "enunciado": "Qual é a voz verbal da frase: 'A professora corrigiu as provas'?",
-    "alternativas": {
-      "a": "Voz passiva",
-      "b": "Voz ativa",
-      "c": "Voz reflexiva",
-      "d": "Voz reflexiva sintética",
-      "e": "Voz passiva sintética"
+    {
+      "id": 6,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Escolha a frase com pontuação correta:",
+      "alternativas": {
+        "a": "Maria, Pedro e João, foram ao parque.",
+        "b": "Maria, Pedro e João foram ao parque.",
+        "c": "Maria Pedro e João, foram ao parque.",
+        "d": "Maria, Pedro, e João foram ao parque.",
+        "e": "Maria Pedro e João foram, ao parque."
+      },
+      "correta": "b",
+      "explicacao": "A vírgula antes de 'e' não é necessária em enumerações simples.",
+      "link": "https://www.todamateria.com.br/pontuacao/"
     },
-    "correta": "b",
-    "explicacao": "Sujeito pratica a ação; é voz ativa.",
-    "link": "https://www.todamateria.com.br/voz-verbal/"
-  },
-  {
-    "id": 7,
-    "categoria": "gramatica",
-    "enunciado": "Na frase 'Ela se machucou na queda', o pronome 'se' é:",
-    "alternativas": {
-      "a": "Pronome pessoal do caso reto",
-      "b": "Pronome pessoal do caso oblíquo átono",
-      "c": "Pronome demonstrativo",
-      "d": "Pronome reflexivo",
-      "e": "Pronome possessivo"
+    {
+      "id": 7,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Qual é a classe gramatical da palavra 'rapidamente'?",
+      "alternativas": {
+        "a": "Substantivo",
+        "b": "Verbo",
+        "c": "Adjetivo",
+        "d": "Adverbio",
+        "e": "Pronome"
+      },
+      "correta": "d",
+      "explicacao": "'Rapidamente' é um advérbio, pois modifica o verbo indicando circunstância.",
+      "link": "https://www.todamateria.com.br/classes-gramaticais/"
     },
-    "correta": "d",
-    "explicacao": "Pronome reflexivo indica que o sujeito pratica e recebe a ação.",
-    "link": "https://www.todamateria.com.br/pronomes-reflexivos/"
-  },
-  {
-    "id": 8,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a frase em que há erro de concordância verbal:",
-    "alternativas": {
-      "a": "Eles foram ao cinema ontem.",
-      "b": "Houveram muitos problemas na reunião.",
-      "c": "Nós gostamos de estudar.",
-      "d": "Ela está feliz.",
-      "e": "Vocês chegaram cedo."
+    {
+      "id": 8,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Assinale a frase com uso correto do acento diferencial:",
+      "alternativas": {
+        "a": "Ele pôde ir ao cinema.",
+        "b": "Ela pode resolver o problema.",
+        "c": "Eles porem continuar o trabalho.",
+        "d": "Ela tem teto novo em casa.",
+        "e": "Ele formou em medicina."
+      },
+      "correta": "a",
+      "explicacao": "O acento diferencial em 'pôde' (pretérito perfeito) diferencia de 'pode' (presente).",
+      "link": "https://www.todamateria.com.br/acento-diferencial/"
     },
-    "correta": "b",
-    "explicacao": "Verbo 'haver' no sentido de existir é impessoal, deve ser usado no singular.",
-    "link": "https://www.todamateria.com.br/concordancia-verbal/"
-  },
-  {
-    "id": 9,
-    "categoria": "gramatica",
-    "enunciado": "Em qual alternativa a palavra 'mas' é uma conjunção adversativa?",
-    "alternativas": {
-      "a": "Eu gosto de chocolate, mas não como muito.",
-      "b": "Mas ele não veio ontem?",
-      "c": "Não sei mas gostei do filme.",
-      "d": "Ela é bonita mas inteligente.",
-      "e": "Mascar chiclete faz mal."
+    {
+      "id": 9,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Qual é o sinônimo de 'feliz'?",
+      "alternativas": {
+        "a": "Triste",
+        "b": "Alegre",
+        "c": "Chateado",
+        "d": "Irritado",
+        "e": "Cansado"
+      },
+      "correta": "b",
+      "explicacao": "'Alegre' é um sinônimo de 'feliz', indicando estado de contentamento.",
+      "link": "https://www.todamateria.com.br/sinonimos/"
     },
-    "correta": "a",
-    "explicacao": "'Mas' indica oposição ou contraste, função adversativa.",
-    "link": "https://www.todamateria.com.br/conjuncoes/"
-  },
-  {
-    "id": 10,
-    "categoria": "gramatica",
-    "enunciado": "Qual a função sintática da palavra 'Maria' na frase: 'Maria comprou um livro'?",
-    "alternativas": {
-      "a": "Objeto direto",
-      "b": "Sujeito",
-      "c": "Objeto indireto",
-      "d": "Adjunto adnominal",
-      "e": "Predicado"
+    {
+      "id": 10,
+      "categoria": "gramatica",
+      "nivel": "facil",
+      "enunciado": "Escolha a frase com regência verbal correta:",
+      "alternativas": {
+        "a": "Ela prefere de chocolate.",
+        "b": "Ele assistiu à filme ontem.",
+        "c": "Eu gosto de ler livros.",
+        "d": "Ela precisa para estudar.",
+        "e": "Ele aspirou ao ar puro."
+      },
+      "correta": "c",
+      "explicacao": "O verbo 'gostar' exige a preposição 'de', correta em 'gosto de ler livros'.",
+      "link": "https://www.todamateria.com.br/regencia-verbal/"
     },
-    "correta": "b",
-    "explicacao": "'Maria' é sujeito da oração, pois pratica a ação do verbo.",
-    "link": "https://www.todamateria.com.br/funcoes-sintaticas/"
-  },
-  {
-    "id": 11,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a alternativa que contém um advérbio de intensidade:",
-    "alternativas": {
-      "a": "Ontem",
-      "b": "Muito",
-      "c": "Aqui",
-      "d": "Lá",
-      "e": "Logo"
+    {
+      "id": 11,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Qual é o tempo verbal da frase 'Eles estavam estudando'?",
+      "alternativas": {
+        "a": "Presente",
+        "b": "Pretérito perfeito",
+        "c": "Pretérito imperfeito",
+        "d": "Futuro do presente",
+        "e": "Futuro do pretérito"
+      },
+      "correta": "c",
+      "explicacao": "'Estavam estudando' está no pretérito imperfeito do indicativo, indicando ação contínua no passado.",
+      "link": "https://www.todamateria.com.br/tempos-verbais/"
     },
-    "correta": "b",
-    "explicacao": "Advérbio de intensidade indica grau, como 'muito'.",
-    "link": "https://www.todamateria.com.br/adverbios/"
-  },
-  {
-    "id": 12,
-    "categoria": "gramatica",
-    "enunciado": "Na frase 'Vou estudar amanhã', o termo 'amanhã' é:",
-    "alternativas": {
-      "a": "Adjunto adnominal",
-      "b": "Objeto direto",
-      "c": "Advérbio de tempo",
-      "d": "Complemento nominal",
-      "e": "Predicativo"
+    {
+      "id": 12,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Assinale a frase com uso correto do gerúndio:",
+      "alternativas": {
+        "a": "Ele está trabalhando agora.",
+        "b": "Ela foi trabalhando ontem.",
+        "c": "Eles estão trabalhou agora.",
+        "d": "Eu estive trabalhado ontem.",
+        "e": "Nós vamos trabalhando hoje."
+      },
+      "correta": "a",
+      "explicacao": "O gerúndio 'trabalhando' está corretamente usado com o auxiliar 'está' para indicar ação em curso.",
+      "link": "https://www.todamateria.com.br/gerundio/"
     },
-    "correta": "c",
-    "explicacao": "'Amanhã' indica tempo em que a ação ocorrerá.",
-    "link": "https://www.todamateria.com.br/adverbios/"
-  },
-  {
-    "id": 13,
-    "categoria": "gramatica",
-    "enunciado": "Qual a forma correta do plural de 'mal' no sentido contrário de 'bem'?",
-    "alternativas": {
-      "a": "mals",
-      "b": "males",
-      "c": "malses",
-      "d": "malses",
-      "e": "mails"
+    {
+      "id": 13,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Qual é o sujeito da frase 'O livro caiu da mesa'?",
+      "alternativas": {
+        "a": "Da mesa",
+        "b": "Caiu",
+        "c": "O livro",
+        "d": "Da",
+        "e": "Mesa"
+      },
+      "correta": "c",
+      "explicacao": "O sujeito é 'O livro', pois é quem realiza a ação de cair.",
+      "link": "https://www.todamateria.com.br/sujeito/"
     },
-    "correta": "b",
-    "explicacao": "O plural de 'mal' (antônimo de 'bem') é 'males'.",
-    "link": "https://www.todamateria.com.br/plural/"
-  },
-  {
-    "id": 14,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a alternativa em que há erro de regência verbal:",
-    "alternativas": {
-      "a": "Gosto de música clássica.",
-      "b": "Assisti o filme ontem.",
-      "c": "Prefiro viajar nas férias.",
-      "d": "Ela gosta de estudar.",
-      "e": "Eles participam do evento."
+    {
+      "id": 14,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Escolha a frase com uso correto da crase em locução adverbial:",
+      "alternativas": {
+        "a": "Ele chegou à noite.",
+        "b": "Ela foi à tarde estudar.",
+        "c": "Ele saiu a manhã inteira.",
+        "d": "Ela ficou a noite toda.",
+        "e": "Ele trabalhou a dia todo."
+      },
+      "correta": "a",
+      "explicacao": "A crase ocorre em 'à noite' (preposição 'a' + artigo 'a').",
+      "link": "https://www.todamateria.com.br/crase/"
     },
-    "correta": "b",
-    "explicacao": "O verbo 'assistir' quando significa 'ver' rege objeto indireto com preposição 'a': 'assisti ao filme'.",
-    "link": "https://www.todamateria.com.br/regencia-verbal/"
-  },
-  {
-    "id": 15,
-    "categoria": "gramatica",
-    "enunciado": "Na frase 'Ele é mais inteligente do que ela', a expressão 'do que' é:",
-    "alternativas": {
-      "a": "Conjunção subordinativa",
-      "b": "Locução conjuntiva comparativa",
-      "c": "Preposição composta",
-      "d": "Advérbio",
-      "e": "Pronome relativo"
+    {
+      "id": 15,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Qual é o complemento verbal da frase 'Ela deu um presente'?",
+      "alternativas": {
+        "a": "Ela",
+        "b": "Deu",
+        "c": "Um presente",
+        "d": "Um",
+        "e": "Presente"
+      },
+      "correta": "c",
+      "explicacao": "'Um presente' é o objeto direto, complemento do verbo 'deu'.",
+      "link": "https://www.todamateria.com.br/complemento-verbal/"
     },
-    "correta": "b",
-    "explicacao": "'Do que' funciona como locução conjuntiva que compara elementos.",
-    "link": "https://www.todamateria.com.br/conjuncoes/"
-  },
-  {
-    "id": 16,
-    "categoria": "gramatica",
-    "enunciado": "Qual o sujeito da frase: 'Choveu muito ontem à noite'?",
-    "alternativas": {
-      "a": "Sujeito oculto",
-      "b": "Sujeito indeterminado",
-      "c": "Sujeito simples",
-      "d": "Oração sem sujeito",
-      "e": "Sujeito composto"
+    {
+      "id": 16,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Assinale a frase com uso correto do pronome relativo:",
+      "alternativas": {
+        "a": "O livro que eu li é bom.",
+        "b": "A casa onde ele mora é grande.",
+        "c": "O carro quem comprei é novo.",
+        "d": "A pessoa qual viu tudo fugiu.",
+        "e": "O filme quando assisti foi ótimo."
+      },
+      "correta": "a",
+      "explicacao": "'Que' é o pronome relativo correto para introduzir a oração subordinada.",
+      "link": "https://www.todamateria.com.br/pronomes-relativos/"
     },
-    "correta": "d",
-    "explicacao": "Verbos como 'chover' são impessoais, frases sem sujeito.",
-    "link": "https://www.todamateria.com.br/sujeito/"
-  },
-  {
-    "id": 17,
-    "categoria": "gramatica",
-    "enunciado": "Na frase 'Ele gosta de ler livros', o termo 'de ler livros' é:",
-    "alternativas": {
-      "a": "Objeto direto",
-      "b": "Objeto indireto",
-      "c": "Adjunto adnominal",
-      "d": "Complemento nominal",
-      "e": "Predicativo"
+    {
+      "id": 17,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Qual é o grau do adjetivo 'bonito' na frase 'Ela é muito bonita'?",
+      "alternativas": {
+        "a": "Comparativo",
+        "b": "Superlativo absoluto",
+        "c": "Superlativo relativo",
+        "d": "Normal",
+        "e": "Diminutivo"
+      },
+      "correta": "d",
+      "explicacao": "'Bonita' está no grau normal, sendo intensificado por 'muito'.",
+      "link": "https://www.todamateria.com.br/grau-dos-adjetivos/"
     },
-    "correta": "b",
-    "explicacao": "Verbo 'gostar' rege objeto indireto com preposição 'de'.",
-    "link": "https://www.todamateria.com.br/regencia-verbal/"
-  },
-  {
-    "id": 18,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a alternativa em que o uso do 'mau' está correto:",
-    "alternativas": {
-      "a": "Ele é um mau aluno.",
-      "b": "Ela está mau humorada.",
-      "c": "Não faça mau uso da palavra.",
-      "d": "Ele tem um mal jeito.",
-      "e": "Isso é um mal exemplo."
+    {
+      "id": 18,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Escolha a frase com uso correto da preposição:",
+      "alternativas": {
+        "a": "Ele falou com ela ontem.",
+        "b": "Ela saiu por o parque.",
+        "c": "Ele chegou em casa tarde.",
+        "d": "Ela comprou para mim um livro.",
+        "e": "Ele viajou de o trem."
+      },
+      "correta": "a",
+      "explicacao": "'Com' é a preposição correta para indicar companhia.",
+      "link": "https://www.todamateria.com.br/preposicoes/"
     },
-    "correta": "a",
-    "explicacao": "'Mau' é antônimo de 'bom', usado para qualificar substantivos.",
-    "link": "https://www.todamateria.com.br/mau-mal/"
-  },
-  {
-    "id": 19,
-    "categoria": "gramatica",
-    "enunciado": "Qual a forma correta do verbo no futuro do presente do indicativo para 'nós' no verbo 'cantar'?",
-    "alternativas": {
-      "a": "Cantaremos",
-      "b": "Cantáramos",
-      "c": "Cantávamos",
-      "d": "Cantaremos",
-      "e": "Cantaria"
+    {
+      "id": 19,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Qual é a função sintática de 'com alegria' na frase 'Ela dançou com alegria'?",
+      "alternativas": {
+        "a": "Sujeito",
+        "b": "Objeto direto",
+        "c": "Adjunto adnominal",
+        "d": "Adjunto adverbial",
+        "e": "Predicativo"
+      },
+      "correta": "d",
+      "explicacao": "'Com alegria' é um adjunto adverbial, pois indica a circunstância da ação.",
+      "link": "https://www.todamateria.com.br/funcoes-sintaticas/"
     },
-    "correta": "a",
-    "explicacao": "Futuro do presente do indicativo para 'nós' é 'cantaremos'.",
-    "link": "https://www.todamateria.com.br/tempos-verbais/"
-  },
-  {
-    "id": 20,
-    "categoria": "gramatica",
-    "enunciado": "Assinale a alternativa que apresenta um advérbio de modo:",
-    "alternativas": {
-      "a": "Aqui",
-      "b": "Ontem",
-      "c": "Rapidamente",
-      "d": "Muito",
-      "e": "Logo"
+    {
+      "id": 20,
+      "categoria": "gramatica",
+      "nivel": "medio",
+      "enunciado": "Assinale a frase com uso correto do subjuntivo:",
+      "alternativas": {
+        "a": "Espero que ele venha amanhã.",
+        "b": "Ele vem amanhã se chover.",
+        "c": "Ela quer que eu vai agora.",
+        "d": "Nós desejamos que ele parte logo.",
+        "e": "Espero que tu chegas cedo."
+      },
+      "correta": "a",
+      "explicacao": "O subjuntivo 'venha' é correto após 'espero que' para indicar possibilidade.",
+      "link": "https://www.todamateria.com.br/modo-subjuntivo/"
     },
-    "correta": "c",
-    "explicacao": "Advérbio de modo indica como a ação acontece.",
-    "link": "https://www.todamateria.com.br/adverbios/"
-  }
-]
+    {
+      "id": 21,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Analise a frase 'Tendo estudado bastante, ele passou no exame.' Qual é a estrutura sintática do gerúndio 'tendo estudado'?",
+      "alternativas": {
+        "a": "Sujeito",
+        "b": "Objeto direto",
+        "c": "Oração subordinada adverbial",
+        "d": "Gerúndio absoluto",
+        "e": "Predicativo"
+      },
+      "correta": "c",
+      "explicacao": "'Tendo estudado' introduz uma oração subordinada adverbial causal, indicando a causa do sucesso.",
+      "link": "https://www.todamateria.com.br/oracoes-subordinadas-adverbiais/"
+    },
+    {
+      "id": 22,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Qual é o valor semântico de 'como' na frase 'Ele correu como um atleta'?",
+      "alternativas": {
+        "a": "Causal",
+        "b": "Comparativo",
+        "c": "Temporal",
+        "d": "Consecutivo",
+        "e": "Condicional"
+      },
+      "correta": "b",
+      "explicacao": "'Como' aqui tem valor comparativo, estabelecendo semelhança com 'um atleta'.",
+      "link": "https://www.todamateria.com.br/conjuncoes-coordenativas-e-subordinativas/"
+    },
+    {
+      "id": 23,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Na frase 'O que ele disse é verdade', qual é a função sintática de 'o que ele disse'?",
+      "alternativas": {
+        "a": "Sujeito",
+        "b": "Objeto direto",
+        "c": "Predicativo",
+        "d": "Adjunto adnominal",
+        "e": "Aposto"
+      },
+      "correta": "a",
+      "explicacao": "'O que ele disse' funciona como sujeito do verbo 'é', sendo uma oração subordinada substantiva.",
+      "link": "https://www.todamateria.com.br/oracoes-subordinadas-substantivas/"
+    },
+    {
+      "id": 24,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Analise a frase 'Se chovesse, ficaríamos em casa.' Qual é o modo e tempo verbal de 'chovesse'?",
+      "alternativas": {
+        "a": "Indicativo, pretérito perfeito",
+        "b": "Subjuntivo, pretérito imperfeito",
+        "c": "Indicativo, futuro do presente",
+        "d": "Subjuntivo, futuro do pretérito",
+        "e": "Indicativo, pretérito imperfeito"
+      },
+      "correta": "b",
+      "explicacao": "'Chovesse' está no subjuntivo, pretérito imperfeito, indicando hipótese no contexto de 'se'.",
+      "link": "https://www.todamateria.com.br/modos-verbais/"
+    },
+    {
+      "id": 25,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Qual é a análise sintática de 'apesar de' na frase 'Apesar de cansado, ele continuou'?",
+      "alternativas": {
+        "a": "Conjunção coordenativa",
+        "b": "Preposição",
+        "c": "Conjunção subordinativa",
+        "d": "Advérbio",
+        "e": "Interjeição"
+      },
+      "correta": "c",
+      "explicacao": "'Apesar de' é uma conjunção subordinativa concessiva, introduzindo uma oração subordinada.",
+      "link": "https://www.todamateria.com.br/conjuncoes-subordinativas/"
+    },
+    {
+      "id": 26,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Na frase 'Quanto mais ele estuda, mais ele aprende', qual é a relação sintática entre as orações?",
+      "alternativas": {
+        "a": "Causal",
+        "b": "Proporcional",
+        "c": "Temporal",
+        "d": "Consecutiva",
+        "e": "Condicional"
+      },
+      "correta": "b",
+      "explicacao": "A estrutura indica uma relação proporcional, onde o aumento de uma ação (estudar) reflete na outra (aprender).",
+      "link": "https://www.todamateria.com.br/oracoes-coordenadas-e-subordinadas/"
+    },
+    {
+      "id": 27,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Qual é a função de 'onde' na frase 'A cidade onde nasci é linda'?",
+      "alternativas": {
+        "a": "Pronome relativo",
+        "b": "Advérbio interrogativo",
+        "c": "Conjunção subordinativa",
+        "d": "Preposição",
+        "e": "Interjeição"
+      },
+      "correta": "a",
+      "explicacao": "'Onde' é um pronome relativo, referindo-se a 'cidade' e introduzindo uma oração subordinada adjetiva.",
+      "link": "https://www.todamateria.com.br/pronomes-relativos/"
+    },
+    {
+      "id": 28,
+      "categoria": "gramatica",
+      "nivel": "dificil",
+      "enunciado": "Analise a frase 'Dado o aviso, todos saíram.' Qual é a função de 'dado o aviso'?",
+      "alternativas": {
+        "a": "Sujeito",
+        "b": "Objeto direto",
+        "c": "Oração subordinada causal",
+        "d": "Particípio absoluto",
+        "e": "Predicativo"
+      },
+      "correta": "d",
+      "explicacao": "'Dado o aviso' é uma construção de particípio absoluto, indicando causa ou condição.",
+      "link": "https://www.todamateria.com.br/participio-absoluto/"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,useParams } from "react-router-dom";
 import { FaCheckSquare } from "react-icons/fa";
 import { FaTimesCircle } from "react-icons/fa";
 
@@ -16,6 +16,7 @@ interface Questao {
   explicacao: string;
   categoria: string;
   link:string
+  nivel: string;
 }
 
 interface Metadados {
@@ -31,6 +32,7 @@ interface Metadados {
 
 export function Literatura() {
   const navigate = useNavigate()
+  const {nivel} = useParams<{nivel:string}>();
   const [questoes, setQuestoes] = useState<Questao[]>([]);
   const [carregando, setCarregando] = useState(true);
   const [respostasSelecionadas, setRespostasSelecionadas] = useState<{
@@ -45,18 +47,29 @@ export function Literatura() {
         const resMeta = await fetch("/data/metadados.json");
         const metadados: Metadados[] = await resMeta.json();
 
-        const meta = metadados.find((m) => m.id === "pt_literatura");
+        
+        const meta = metadados.find(
+  (m) => m.id === "pt_literatura" && m.nivel.toLowerCase() === (nivel || "").toLowerCase()
+);
+
         if (!meta) {
           console.warn("Metadado pt_geral não encontrado");
           return;
         }
         const resQuestoes = await fetch(`/data/${meta.arquivo}`);
-        const questoesData: Questao[] = await resQuestoes.json();
+        const questoesDataRaw = await resQuestoes.json();
+        const questoesData:Questao[] = questoesDataRaw.questoes;
 
         const categoriaAlvo = "literatura";
-        const questoesFiltradas = questoesData.filter(
-          (q) => q.categoria === categoriaAlvo
-        );
+        const niveisValidos = ["facil","medio","dificil"];
+        if(!niveisValidos.includes(nivel || "")){
+          console.error("Nível inválido:", nivel);
+          setQuestoes([]);
+          return;
+        }
+       const questoesFiltradas = questoesData.filter((q: Questao) =>
+  q.categoria === categoriaAlvo && q.nivel === nivel
+);
         const selecionadas = [...questoesFiltradas]
           .sort(() => Math.random() - 0.5)
           .slice(0, 10);
@@ -68,8 +81,9 @@ export function Literatura() {
         setCarregando(false);
       }
     }
+    console.log(nivel)
     carregarQuestoes();
-  }, []);
+  }, [nivel]);
 
   if (carregando) {
     return (

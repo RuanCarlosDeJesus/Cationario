@@ -1,11 +1,15 @@
 import { useState } from "react";
+import  Cat from"../../public/Cat.png"
+import Catt from"../../public/Cat2.jpg";
 import { useNavigate, Link } from "react-router-dom";
-import { auth } from '../services/firebaseConnections';
+import { auth , provider, signInWithPopup } from '../services/firebaseConnections';
 import { signInWithEmailAndPassword } from "firebase/auth";
-
+import { doc, setDoc, getDoc } from "firebase/firestore";
+import { db } from "../services/firebaseConnections"; 
 export function Login() {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
+ 
   const navigate = useNavigate();
 const [loading, setLoading] = useState<boolean>(false);
   function handleLogin(e: React.FormEvent) {
@@ -16,6 +20,7 @@ const [loading, setLoading] = useState<boolean>(false);
       return;
    
     }
+
 
     signInWithEmailAndPassword(auth, email, senha)
       .then(() => {
@@ -34,6 +39,32 @@ const [loading, setLoading] = useState<boolean>(false);
 }
   }
 
+  async function handleLoginGoogle() {
+  try {
+    const result = await signInWithPopup(auth, provider);
+    const user = result.user;
+
+    // Verifica se o usuário já está no Firestore
+    const userRef = doc(db, "users", user.uid);
+    const userSnap = await getDoc(userRef);
+
+    if (!userSnap.exists()) {
+      await setDoc(userRef, {
+        nome: user.displayName,
+        email: user.email,
+        criadoEm: new Date()
+      });
+    }
+
+    console.log("Usuário logado com Google:", user);
+    navigate("/home", { replace: true });
+
+  } catch (error) {
+    console.error("Erro ao fazer login com Google:", error);
+    alert("Erro ao fazer login com Google.");
+  }
+}
+
   return (
     <div className="w-full flex justify-center overflow-hidden text-white">
       <form
@@ -43,19 +74,13 @@ const [loading, setLoading] = useState<boolean>(false);
         <h1 className="text-3xl font-bold text-center mb-6">
           Seja bem-vindo(a) ao Cationário!
         </h1>
-
-        <button className="px-5 w-[90%] py-2 m-3 border-[0.5px] rounded-3xl cursor-pointer hover:bg-green-600 hover:text-black transition ease-in-out flex items-center">
-          <i className="bi bi-google mr-3"></i> Continua com Google
+      <img  className="w-[150px] h-[150px] rounded-full mb-5 cursor"src={Catt} alt="Cat" />
+        <button onClick={handleLoginGoogle}
+        className="px-5   w-[90%] py-2    m-3 border-[0.5px] rounded-3xl cursor-pointer hover:bg-green-600 hover:text-black transition ease-in-out  items-center">
+          <i className="bi bi-google text-red-700  mr-3"> </i> Continue com Google
         </button>
 
-        <button className="px-5 w-[90%] py-2 m-3 border-[0.5px] rounded-3xl cursor-pointer hover:bg-green-600 hover:text-black transition ease-in-out flex items-center">
-          <i className="bi bi-facebook mr-3"></i> Continua com Facebook
-        </button>
-
-        <button className="px-5 w-[90%] py-2 m-3 border-[0.5px] rounded-3xl cursor-pointer hover:bg-green-600 hover:text-black transition ease-in-out flex items-center">
-          <i className="bi bi-apple mr-3"></i> Continua com Apple
-        </button>
-
+      
         <div className="flex flex-col w-full mt-4">
           <label htmlFor="email" className="mb-2.5 mt-2 text-white text-left">Email:</label>
           <input

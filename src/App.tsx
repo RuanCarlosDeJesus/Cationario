@@ -30,11 +30,11 @@ const router = createBrowserRouter([
     element: <Portugues />,
   },
    {
-    path: "/portugues_gramatica",  // Parâmetro de rota categoria
-    element: <Gramatica />,
+   path: "/portugues_gramatica/:nivel",
+  element: <Gramatica />,
   },
      {
-    path: "/portugues_literatura",  // Parâmetro de rota categoria
+    path: "/portugues_literatura/:nivel",  // Parâmetro de rota categoria
     element: <Literatura />,
   },
   {

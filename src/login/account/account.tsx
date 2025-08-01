@@ -3,7 +3,7 @@ import { auth, db } from "../../services/firebaseConnections";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { setDoc, doc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
-
+import Cat from "../../../public/Cat.png";
 export function Account() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -60,7 +60,7 @@ export function Account() {
         <h1 className="text-3xl font-bold text-center mb-6 text-white">
           Crie sua Conta
         </h1>
-
+        <img  className="w-[150px] h-[150px] rounded-full mb-5 cursor"src={Cat} alt="Cat" />
         <div className="flex flex-col w-full mt-4">
           <label className="mb-2.5 mt-2 text-white text-left">Nome:</label>
           <input

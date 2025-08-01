@@ -1,152 +1,484 @@
-[
-  {
-    "id": 1,
-    "categoria": "literatura",
-    "enunciado": "O que caracteriza a poesia simbolista?",
-    "alternativas": {
-      "a": "Linguagem clara e objetiva",
-      "b": "Uso de símbolos e subjetividade",
-      "c": "Crítica social direta",
-      "d": "Ritmo e métrica rígidos",
-      "e": "Temas científicos"
+{
+  "questoes": [
+    {
+      "id": 1,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Quem é o autor de 'Dom Casmurro'?",
+      "alternativas": {
+        "a": "Machado de Assis",
+        "b": "José de Alencar",
+        "c": "Clarice Lispector",
+        "d": "João Guimarães Rosa",
+        "e": "Carlos Drummond de Andrade"
+      },
+      "correta": "a",
+      "explicacao": "Machado de Assis é o autor de 'Dom Casmurro', uma das obras mais famosas da literatura brasileira.",
+      "link": "https://www.todamateria.com.br/dom-casmurro/"
     },
-    "correta": "b",
-    "explicacao": "O simbolismo usa símbolos e linguagem subjetiva.",
-    "link": "https://www.todamateria.com.br/simbolismo/"
-  },
-  {
-    "id": 2,
-    "categoria": "literatura",
-    "enunciado": "Qual é a principal característica do Realismo?",
-    "alternativas": {
-      "a": "Valorização do fantástico",
-      "b": "Idealização do amor",
-      "c": "Representação fiel da realidade",
-      "d": "Uso de metáforas religiosas",
-      "e": "Ênfase na natureza"
+    {
+      "id": 2,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Qual é o gênero literário de 'O Guarani'?",
+      "alternativas": {
+        "a": "Poesia",
+        "b": "Romance",
+        "c": "Teatro",
+        "d": "Conto",
+        "e": "Crônica"
+      },
+      "correta": "b",
+      "explicacao": "'O Guarani' é um romance indianista escrito por José de Alencar.",
+      "link": "https://www.todamateria.com.br/o-guarani/"
     },
-    "correta": "c",
-    "explicacao": "O Realismo busca representar a realidade de forma objetiva.",
-    "link": "https://www.todamateria.com.br/realismo-no-brasil/"
-  },
-  {
-    "id": 3,
-    "categoria": "literatura",
-    "enunciado": "Machado de Assis é associado a qual movimento literário?",
-    "alternativas": {
-      "a": "Romantismo",
-      "b": "Barroco",
-      "c": "Realismo",
-      "d": "Modernismo",
-      "e": "Naturalismo"
+    {
+      "id": 3,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Quem escreveu 'Memórias Póstumas de Brás Cubas'?",
+      "alternativas": {
+        "a": "Machado de Assis",
+        "b": "Érico Veríssimo",
+        "c": "Graciliano Ramos",
+        "d": "Lima Barreto",
+        "e": "Monteiro Lobato"
+      },
+      "correta": "a",
+      "explicacao": "Machado de Assis é o autor de 'Memórias Póstumas de Brás Cubas', uma obra inovadora da literatura brasileira.",
+      "link": "https://www.todamateria.com.br/memorias-postumas-de-bras-cubas/"
     },
-    "correta": "c",
-    "explicacao": "Machado de Assis é o maior nome do Realismo brasileiro.",
-    "link": "https://www.todamateria.com.br/machado-de-assis/"
-  },
-  {
-    "id": 4,
-    "categoria": "literatura",
-    "enunciado": "O que foi a Semana de Arte Moderna de 1922?",
-    "alternativas": {
-      "a": "Evento político",
-      "b": "Congresso acadêmico",
-      "c": "Festival de música clássica",
-      "d": "Marco inicial do Modernismo no Brasil",
-      "e": "Mostra de artesanato"
+    {
+      "id": 4,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Qual é o título de uma obra de Clarice Lispector?",
+      "alternativas": {
+        "a": "Grande Sertão: Veredas",
+        "b": "A Paixão Segundo G.H.",
+        "c": "Vidas Secas",
+        "d": "O Cortiço",
+        "e": "Sagarana"
+      },
+      "correta": "b",
+      "explicacao": "'A Paixão Segundo G.H.' é uma das obras mais conhecidas de Clarice Lispector.",
+      "link": "https://www.todamateria.com.br/clarice-lispector/"
     },
-    "correta": "d",
-    "explicacao": "A Semana de 22 marcou o início do Modernismo no Brasil.",
-    "link": "https://www.todamateria.com.br/semana-de-arte-moderna/"
-  },
-  {
-    "id": 5,
-    "categoria": "literatura",
-    "enunciado": "Qual das obras abaixo é de autoria de Clarice Lispector?",
-    "alternativas": {
-      "a": "Dom Casmurro",
-      "b": "A Hora da Estrela",
-      "c": "Memórias Póstumas de Brás Cubas",
-      "d": "Iracema",
-      "e": "Macunaíma"
+    {
+      "id": 5,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Em que século viveu Camões, autor de 'Os Lusíadas'?",
+      "alternativas": {
+        "a": "Século XV",
+        "b": "Século XVI",
+        "c": "Século XVII",
+        "d": "Século XVIII",
+        "e": "Século XIX"
+      },
+      "correta": "b",
+      "explicacao": "Luís de Camões viveu no século XVI e escreveu 'Os Lusíadas', épico português.",
+      "link": "https://www.todamateria.com.br/os-lusiadas/"
     },
-    "correta": "b",
-    "explicacao": "A obra 'A Hora da Estrela' é de Clarice Lispector.",
-    "link": "https://www.todamateria.com.br/clarice-lispector/"
-  },
-  {
-    "id": 6,
-    "categoria": "literatura",
-    "enunciado": "Qual característica define o Barroco?",
-    "alternativas": {
-      "a": "Simplicidade linguística",
-      "b": "Racionalismo extremo",
-      "c": "Dualismo entre corpo e alma",
-      "d": "Rejeição à religião",
-      "e": "Romantização do amor"
+    {
+      "id": 6,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Qual é o nome do personagem principal de 'O Cortiço'?",
+      "alternativas": {
+        "a": "João Romão",
+        "b": "Bentinho",
+        "c": "Rui",
+        "d": "Riobaldo",
+        "e": "Fabiano"
+      },
+      "correta": "a",
+      "explicacao": "João Romão é o protagonista de 'O Cortiço', obra de Aluísio Azevedo.",
+      "link": "https://www.todamateria.com.br/o-cortico/"
     },
-    "correta": "c",
-    "explicacao": "O Barroco é marcado pela oposição entre matéria e espírito.",
-    "link": "https://www.todamateria.com.br/barroco-no-brasil/"
-  },
-  {
-    "id": 7,
-    "categoria": "literatura",
-    "enunciado": "Quem foi Mário de Andrade?",
-    "alternativas": {
-      "a": "Poeta parnasiano",
-      "b": "Autor barroco",
-      "c": "Figura central do Modernismo",
-      "d": "Escritor romântico",
-      "e": "Simbolista francês"
+    {
+      "id": 7,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Quem é o autor de 'Vidas Secas'?",
+      "alternativas": {
+        "a": "Graciliano Ramos",
+        "b": "Jorge Amado",
+        "c": "Rachel de Queiroz",
+        "d": "Érico Veríssimo",
+        "e": "Lygia Fagundes Telles"
+      },
+      "correta": "a",
+      "explicacao": "Graciliano Ramos escreveu 'Vidas Secas', um clássico do regionalismo brasileiro.",
+      "link": "https://www.todamateria.com.br/vidas-secas/"
     },
-    "correta": "c",
-    "explicacao": "Mário de Andrade foi um dos principais modernistas do Brasil.",
-    "link": "https://www.todamateria.com.br/mario-de-andrade/"
-  },
-  {
-    "id": 8,
-    "categoria": "literatura",
-    "enunciado": "O que caracteriza o movimento romântico?",
-    "alternativas": {
-      "a": "Objetividade e crítica social",
-      "b": "Exaltação dos sentimentos e do nacionalismo",
-      "c": "Rejeição à arte",
-      "d": "Uso de termos científicos",
-      "e": "Técnica de fluxos de consciência"
+    {
+      "id": 8,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Qual é o gênero de 'Macunaíma'?",
+      "alternativas": {
+        "a": "Romance",
+        "b": "Poesia",
+        "c": "Rapsódia",
+        "d": "Teatro",
+        "e": "Conto"
+      },
+      "correta": "c",
+      "explicacao": "'Macunaíma', de Mário de Andrade, é uma rapsódia, misturando prosa e poesia.",
+      "link": "https://www.todamateria.com.br/macunaima/"
     },
-    "correta": "b",
-    "explicacao": "O Romantismo valoriza o eu, os sentimentos e o amor idealizado.",
-    "link": "https://www.todamateria.com.br/romantismo/"
-  },
-  {
-    "id": 9,
-    "categoria": "literatura",
-    "enunciado": "Qual autor escreveu 'Macunaíma'?",
-    "alternativas": {
-      "a": "Carlos Drummond de Andrade",
-      "b": "Graciliano Ramos",
-      "c": "Mário de Andrade",
-      "d": "Manuel Bandeira",
-      "e": "Lima Barreto"
+    {
+      "id": 9,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Quem escreveu 'O Auto da Compadecida'?",
+      "alternativas": {
+        "a": "Ariano Suassuna",
+        "b": "Nelson Rodrigues",
+        "c": "Guimarães Rosa",
+        "d": "Vinicius de Moraes",
+        "e": "Manuel Bandeira"
+      },
+      "correta": "a",
+      "explicacao": "Ariano Suassuna é o autor de 'O Auto da Compadecida', uma peça de teatro nordestina.",
+      "link": "https://www.todamateria.com.br/o-auto-da-compadecida/"
     },
-    "correta": "c",
-    "explicacao": "Mário de Andrade escreveu 'Macunaíma', herói sem nenhum caráter.",
-    "link": "https://www.todamateria.com.br/macunaima/"
-  },
-  {
-    "id": 10,
-    "categoria": "literatura",
-    "enunciado": "O Naturalismo se caracteriza por:",
-    "alternativas": {
-      "a": "Idealização do herói",
-      "b": "Subjetividade",
-      "c": "Análise científica do comportamento humano",
-      "d": "Fuga da realidade",
-      "e": "Exaltação do amor"
+    {
+      "id": 10,
+      "categoria": "literatura",
+      "nivel": "facil",
+      "enunciado": "Qual é a nacionalidade de Shakespeare?",
+      "alternativas": {
+        "a": "Francês",
+        "b": "Italiano",
+        "c": "Inglês",
+        "d": "Espanhol",
+        "e": "Português"
+      },
+      "correta": "c",
+      "explicacao": "William Shakespeare era inglês, autor de obras como 'Romeu e Julieta'.",
+      "link": "https://www.todamateria.com.br/william-shakespeare/"
     },
-    "correta": "c",
-    "explicacao": "O Naturalismo foca no determinismo social e biológico.",
-    "link": "https://www.todamateria.com.br/naturalismo/"
-  }
-]
+    {
+      "id": 11,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é o tema central de 'Grande Sertão: Veredas'?",
+      "alternativas": {
+        "a": "Amor urbano",
+        "b": "Conflito interior e moral",
+        "c": "Revolução social",
+        "d": "Vida na corte",
+        "e": "Exploração colonial"
+      },
+      "correta": "b",
+      "explicacao": "A obra de Guimarães Rosa explora o conflito interior e as questões morais no sertão.",
+      "link": "https://www.todamateria.com.br/grande-sertao-veredas/"
+    },
+    {
+      "id": 12,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Em 'Memórias Póstumas de Brás Cubas', qual é a característica narrativa mais marcante?",
+      "alternativas": {
+        "a": "Narrativa linear",
+        "b": "Narrador em primeira pessoa morto",
+        "c": "Diálogos extensos",
+        "d": "Descrição detalhada de cenários",
+        "e": "Foco na ação"
+      },
+      "correta": "b",
+      "explicacao": "O narrador, Brás Cubas, conta a história após sua morte, inovando na estrutura narrativa.",
+      "link": "https://www.todamateria.com.br/memorias-postumas-de-bras-cubas/"
+    },
+    {
+      "id": 13,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é o movimento literário de 'Iracema'?",
+      "alternativas": {
+        "a": "Romantismo",
+        "b": "Realismo",
+        "c": "Modernismo",
+        "d": "Simbolismo",
+        "e": "Parnasianismo"
+      },
+      "correta": "a",
+      "explicacao": "'Iracema', de José de Alencar, pertence ao Romantismo, com foco no indianismo.",
+      "link": "https://www.todamateria.com.br/iracema/"
+    },
+    {
+      "id": 14,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é o papel de Capitu em 'Dom Casmurro'?",
+      "alternativas": {
+        "a": "Antagonista principal",
+        "b": "Esposa e objeto de obsessão",
+        "c": "Narradora da história",
+        "d": "Amiga de infância",
+        "e": "Mãe de Bentinho"
+      },
+      "correta": "b",
+      "explicacao": "Capitu é a esposa de Bentinho e central na trama de ciúmes e dúvida.",
+      "link": "https://www.todamateria.com.br/dom-casmurro/"
+    },
+    {
+      "id": 15,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Em que ano foi publicado 'Macunaíma'?",
+      "alternativas": {
+        "a": "1922",
+        "b": "1928",
+        "c": "1936",
+        "d": "1945",
+        "e": "1956"
+      },
+      "correta": "b",
+      "explicacao": "'Macunaíma', de Mário de Andrade, foi publicado em 1928, marco do Modernismo.",
+      "link": "https://www.todamateria.com.br/macunaima/"
+    },
+    {
+      "id": 16,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é o estilo predominante em 'Claro Enigma', de Carlos Drummond de Andrade?",
+      "alternativas": {
+        "a": "Parnasianismo",
+        "b": "Simbolismo",
+        "c": "Modernismo",
+        "d": "Realismo",
+        "e": "Romantismo"
+      },
+      "correta": "c",
+      "explicacao": "'Claro Enigma' reflete o Modernismo, com linguagem inovadora e reflexiva.",
+      "link": "https://www.todamateria.com.br/carlos-drummond-de-andrade/"
+    },
+    {
+      "id": 17,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é o tema de 'A Hora da Estrela'?",
+      "alternativas": {
+        "a": "Vida rural",
+        "b": "Existência e marginalidade",
+        "c": "Amor romântico",
+        "d": "Guerra",
+        "e": "Aventura"
+      },
+      "correta": "b",
+      "explicacao": "A obra de Clarice Lispector explora a existência e a condição marginal de Macabéa.",
+      "link": "https://www.todamateria.com.br/a-hora-da-estrela/"
+    },
+    {
+      "id": 18,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Quem é o narrador de 'Quincas Borba'?",
+      "alternativas": {
+        "a": "Terceira pessoa onisciente",
+        "b": "Primeira pessoa",
+        "c": "Segunda pessoa",
+        "d": "Narrador personagem",
+        "e": "Narrador objetivo"
+      },
+      "correta": "a",
+      "explicacao": "A narrativa é conduzida por um narrador em terceira pessoa com visão ampla.",
+      "link": "https://www.todamateria.com.br/quincas-borba/"
+    },
+    {
+      "id": 19,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é a principal característica do Modernismo na literatura brasileira?",
+      "alternativas": {
+        "a": "Idealização da natureza",
+        "b": "Quebra de padrões formais",
+        "c": "Foco na moral cristã",
+        "d": "Descrição realista detalhada",
+        "e": "Uso de versos regulares"
+      },
+      "correta": "b",
+      "explicacao": "O Modernismo buscou renovação, rompendo com formas tradicionais.",
+      "link": "https://www.todamateria.com.br/modernismo-no-brasil/"
+    },
+    {
+      "id": 20,
+      "categoria": "literatura",
+      "nivel": "medio",
+      "enunciado": "Qual é o cenário principal de 'Sagarana'?",
+      "alternativas": {
+        "a": "Cidade grande",
+        "b": "Sertão mineiro",
+        "c": "Litoral nordestino",
+        "d": "Floresta amazônica",
+        "e": "Região sulista"
+      },
+      "correta": "b",
+      "explicacao": "As histórias de Guimarães Rosa se passam no sertão mineiro.",
+      "link": "https://www.todamateria.com.br/sagarana/"
+    },
+    {
+      "id": 21,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Qual é a função da metalinguagem em 'Grande Sertão: Veredas'?",
+      "alternativas": {
+        "a": "Descrever cenários",
+        "b": "Refletir sobre a linguagem e a narrativa",
+        "c": "Criar suspense",
+        "d": "Introduzir diálogos",
+        "e": "Estabelecer ritmo poético"
+      },
+      "correta": "b",
+      "explicacao": "A metalinguagem permite que a obra questione e explore os limites da própria linguagem.",
+      "link": "https://www.todamateria.com.br/grande-sertao-veredas/"
+    },
+    {
+      "id": 22,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Em 'Memórias Póstumas de Brás Cubas', qual é o efeito da estrutura fragmentada?",
+      "alternativas": {
+        "a": "Linearidade narrativa",
+        "b": "Ruptura com a linearidade tradicional",
+        "c": "Foco em descrições detalhadas",
+        "d": "Eliminação de reflexões",
+        "e": "Aumento da ação"
+      },
+      "correta": "b",
+      "explicacao": "A fragmentação reflete a visão cética e irônica do narrador, quebrando a narrativa tradicional.",
+      "link": "https://www.todamateria.com.br/memorias-postumas-de-bras-cubas/"
+    },
+    {
+      "id": 23,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Qual é o significado simbólico da figura de Macunaíma?",
+      "alternativas": {
+        "a": "Herói tradicional",
+        "b": "Representação do povo brasileiro",
+        "c": "Figura mitológica europeia",
+        "d": "Símbolo de poder colonial",
+        "e": "Personagem realista"
+      },
+      "correta": "b",
+      "explicacao": "Macunaíma simboliza as contradições e a identidade cultural brasileira.",
+      "link": "https://www.todamateria.com.br/macunaima/"
+    },
+    {
+      "id": 24,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Como se caracteriza o estilo de Guimarães Rosa em 'Sagarana'?",
+      "alternativas": {
+        "a": "Linguagem simples e direta",
+        "b": "Uso de neologismos e oralidade",
+        "c": "Foco em versos métricos",
+        "d": "Descrição realista detalhada",
+        "e": "Narrativa linear"
+      },
+      "correta": "b",
+      "explicacao": "Rosa usa neologismos e a oralidade do sertão, criando um estilo único.",
+      "link": "https://www.todamateria.com.br/sagarana/"
+    },
+    {
+      "id": 25,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Qual é a função da intertextualidade em 'Quincas Borba'?",
+      "alternativas": {
+        "a": "Criar humor e crítica social",
+        "b": "Descrever paisagens",
+        "c": "Estabelecer cronologia",
+        "d": "Introduzir personagens históricos",
+        "e": "Focar na ação"
+      },
+      "correta": "a",
+      "explicacao": "A intertextualidade com a filosofia de Quincas Borba serve para satirizar a sociedade.",
+      "link": "https://www.todamateria.com.br/quincas-borba/"
+    },
+    {
+      "id": 26,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Em 'A Paixão Segundo G.H.', qual é o papel do inseto no desenvolvimento da narrativa?",
+      "alternativas": {
+        "a": "Símbolo de ameaça",
+        "b": "Catalisador da introspecção",
+        "c": "Elemento decorativo",
+        "d": "Representação de poder",
+        "e": "Foco da ação"
+      },
+      "correta": "b",
+      "explicacao": "O inseto desencadeia a reflexão existencial da protagonista.",
+      "link": "https://www.todamateria.com.br/a-paixao-segundo-g-h/"
+    },
+    {
+      "id": 27,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Qual é a influência do teatro grego em 'O Auto da Compadecida'?",
+      "alternativas": {
+        "a": "Uso de coros",
+        "b": "Estrutura de tragédia",
+        "c": "Diálogos filosóficos",
+        "d": "Cenários realistas",
+        "e": "Narrativa linear"
+      },
+      "correta": "a",
+      "explicacao": "O uso de coros e narradores reflete influências do teatro grego adaptadas ao contexto popular.",
+      "link": "https://www.todamateria.com.br/o-auto-da-compadecida/"
+    },
+    {
+      "id": 28,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Como se manifesta o regionalismo em 'Vidas Secas'?",
+      "alternativas": {
+        "a": "Descrição de cidades modernas",
+        "b": "Foco na seca e na vida no sertão",
+        "c": "Uso de linguagem urbana",
+        "d": "Temática amorosa",
+        "e": "Cenários europeus"
+      },
+      "correta": "b",
+      "explicacao": "O regionalismo aparece na representação da seca e da luta pela sobrevivência no sertão.",
+      "link": "https://www.todamateria.com.br/vidas-secas/"
+    },
+    {
+      "id": 29,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Qual é o papel da ironia em 'Dom Casmurro'?",
+      "alternativas": {
+        "a": "Amplificar a ação",
+        "b": "Questionar a narrativa de Bentinho",
+        "c": "Descrever cenários",
+        "d": "Criar humor simples",
+        "e": "Estabelecer moralidade"
+      },
+      "correta": "b",
+      "explicacao": "A ironia sugere que a visão de Bentinho sobre Capitu pode ser distorcida.",
+      "link": "https://www.todamateria.com.br/dom-casmurro/"
+    },
+    {
+      "id": 30,
+      "categoria": "literatura",
+      "nivel": "dificil",
+      "enunciado": "Em que medida o Modernismo influenciou 'Claro Enigma'?",
+      "alternativas": {
+        "a": "Rejeição total da tradição",
+        "b": "Fusão de tradição e inovação",
+        "c": "Foco exclusivo em métrica",
+        "d": "Retorno ao Romantismo",
+        "e": "Eliminação de imagens poéticas"
+      },
+      "correta": "b",
+      "explicacao": "Drummond mistura elementos tradicionais com a experimentação modernista.",
+      "link": "https://www.todamateria.com.br/carlos-drummond-de-andrade/"
+    }
+  ]
+}

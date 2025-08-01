@@ -2,7 +2,23 @@
   {
     "id": "pt_literatura",
     "materia": "Português",
-    "nivel": "geral",
+    "nivel": "Facil",
+    "arquivo": "pt_literatura.json",
+    "quantidade": 10,
+    "ultimaAtualizacao": "14-07-2025"
+  },
+   {
+    "id": "pt_literatura",
+    "materia": "Português",
+    "nivel": "medio",
+    "arquivo": "pt_literatura.json",
+    "quantidade": 10,
+    "ultimaAtualizacao": "14-07-2025"
+  },
+   {
+    "id": "pt_literatura",
+    "materia": "Português",
+    "nivel": "dificil",
     "arquivo": "pt_literatura.json",
     "quantidade": 10,
     "ultimaAtualizacao": "14-07-2025"
@@ -10,7 +26,23 @@
    {
     "id": "pt_gramatica",
     "materia": "Português",
-    "nivel": "geral",
+    "nivel": "facil",
+    "arquivo": "pt_gramatica.json",
+    "quantidade": 10,
+    "ultimaAtualizacao": "14-07-2025"
+  },
+   {
+    "id": "pt_gramatica",
+    "materia": "Português",
+    "nivel": "medio",
+    "arquivo": "pt_gramatica.json",
+    "quantidade": 10,
+    "ultimaAtualizacao": "14-07-2025"
+  },
+   {
+    "id": "pt_gramatica",
+    "materia": "Português",
+    "nivel": "dificil",
     "arquivo": "pt_gramatica.json",
     "quantidade": 10,
     "ultimaAtualizacao": "14-07-2025"

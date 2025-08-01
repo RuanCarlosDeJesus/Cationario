@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="200" height="200" fill="#ffffff"/>
+  
+  <!-- Traje e corpo -->
+  <path d="M90 100 L80 150 L120 150 L130 100 Z" fill="#ffffff" stroke="#000000" stroke-width="5"/>
+  
+  <!-- Capacete -->
+  <circle cx="105" cy="80" r="40" fill="#ffffff" stroke="#000000" stroke-width="5"/>
+  
+  <!-- Cabeça do gato -->
+  <ellipse cx="105" cy="80" rx="30" ry="35" fill="#ffffff"/>
+  
+  <!-- Orelhas -->
+  <path d="M85 50 L95 30 L105 50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <path d="M125 50 L115 30 L105 50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Olhos -->
+  <circle cx="95" cy="70" r="8" fill="#000000"/>
+  <circle cx="115" cy="70" r="8" fill="#000000"/>
+  <circle cx="95" cy="70" r="3" fill="#ffffff"/>
+  <circle cx="115" cy="70" r="3" fill="#ffffff"/>
+  
+  <!-- Nariz e boca -->
+  <path d="M100 85 L105 85 L102.5 90 Z" fill="#ff9999"/>
+  <path d="M100 90 L105 90" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Braço levantado -->
+  <path d="M80 100 L70 80 L90 90 Z" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Cauda -->
+  <path d="M130 120 Q140 100 150 120" fill="none" stroke="#000000" stroke-width="5"/>
+  
+  <!-- Planeta no peito -->
+  <circle cx="105" cy="120" r="15" fill="#87CEEB"/>
+  <path d="M105 120 A15 15 0 0 1 115 130" fill="#FFA500"/>
+  <circle cx="105" cy="120" r="5" fill="#FFD700"/>
+</svg>
